@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tantangan - MPSDA ITB</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="../assets/images/logo-itb.png" alt="Logo ITB" style="height: 50px; width: auto;">
+                <div class="ms-3 brand-title-container">
+                    <span class="brand-text-top">Prodi Magister</span>
+                    <span class="brand-text-main">PSDA ITB</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../profil/sejarah.html"><i class="fas fa-landmark"></i>Sejarah</a></li>
+                            <li><a class="dropdown-item" href="../profil/visi-misi.html"><i class="fas fa-bullseye"></i>Visi dan Misi</a></li>
+                            <li><a class="dropdown-item" href="../profil/tujuan.html"><i class="fas fa-crosshairs"></i>Tujuan</a></li>
+                            <li><a class="dropdown-item" href="../profil/pimpinan.html"><i class="fas fa-user-tie"></i>Pimpinan</a></li>
+                            <li><a class="dropdown-item" href="../profil/staf-akademik.html"><i class="fas fa-users"></i>Staf Akademik</a></li>
+                            <li><a class="dropdown-item" href="../profil/fasilitas.html"><i class="fas fa-building"></i>Fasilitas</a></li>
+                            <li><a class="dropdown-item" href="../profil/data-fakta.html"><i class="fas fa-chart-bar"></i>Data dan Fakta</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Program</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="body-of-knowledge.html"><i class="fas fa-book-open"></i>Body of knowledge</a></li>
+                            <li><a class="dropdown-item active" href="tantangan.html"><i class="fas fa-tasks"></i>Tantangan</a></li>
+                            <li><a class="dropdown-item" href="tujuan-pendidikan.html"><i class="fas fa-graduation-cap"></i>Tujuan Pendidikan</a></li>
+                            <li><a class="dropdown-item" href="capaian-lulusan.html"><i class="fas fa-trophy"></i>Capaian Lulusan</a></li>
+                            <li><a class="dropdown-item" href="struktur-kurikulum.html"><i class="fas fa-sitemap"></i>Struktur Kurikulum</a></li>
+                            <li><a class="dropdown-item" href="silabus.html"><i class="fas fa-book"></i>Silabus</a></li>
+                            <li><a class="dropdown-item" href="standar-penilaian.html"><i class="fas fa-check-double"></i>Standar Penilaian</a></li>
+                            <li><a class="dropdown-item" href="kerja-praktek.html"><i class="fas fa-briefcase"></i>Kerja Praktek</a></li>
+                            <li><a class="dropdown-item" href="tugas-akhir.html"><i class="fas fa-file-alt"></i>Thesis</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laboratorium</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../laboratorium/lab-hidraulika.html"><i class="fas fa-water"></i>Lab. Hidraulika</a></li>
+                            <li><a class="dropdown-item" href="../laboratorium/lab-model-fisik-hidraulik.html"><i class="fas fa-wave-square"></i>Lab. Model Fisik Hidraulik</a></li>
+                            
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="https://www.youtube.com/results?search_query=Laboratorium+MPSDA+ITB" target="_blank">
+                                    <i class="fab fa-youtube text-danger"></i> Video Panduan Praktikum
+                                </a>
+                            </li>
+                        </ul>
+                    </li> 
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kegiatan</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../kegiatan/akreditasi.html"><i class="fas fa-certificate"></i>Akreditasi</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/prestasi.html"><i class="fas fa-award"></i>Prestasi</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/kerja-sama.html"><i class="fas fa-handshake"></i>Kerja Sama</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/galeri.html"><i class="fas fa-images"></i>Galeri</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../perpustakaan/perpustakaan.html">Perpustakaan</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://itb.ac.id/berita/">Berita</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="article-hero-banner" data-aos="fade-in">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=2070&auto=format&fit=crop" alt="Ilustrasi Sumber Daya Air">
+        <div class="hero-text-overlay">
+            <h1>Tantangan</h1>
+        </div>
+    </div>
+
+    <main class="page-content-aesthetic">
+        <div class="article-container">
+            <article class="article-body" data-aos="fade-up" data-aos-delay="100">
+                
+                <h4 class="fw-bold text-primary mt-4"><i class="fas fa-globe me-2"></i>Tantangan Global</h4>
+                <ul class="lh-lg mb-4">
+                    <li>Perubahan iklim akibat El-Nino dan La-Nina, serta pemanasan global yang berdampak pada banjir, kenaikan muka laut, dan kekeringan.</li>
+                    <li>Indonesia sebagai hub dalam pengelolaan daerah aliran sungai di Asia Pasifik.</li>
+                    <li>Sasaran Millenium Development Goal berkaitan dengan kelaparan dan kemiskinan, jaminan daya dukung lingkungan hidup dan kerjasama global dalam pembangunan terutama dalam bidang sumber daya air.</li>
+                </ul>
+
+                <hr class="my-5 opacity-25">
+
+                <h4 class="fw-bold text-primary mt-4"><i class="fas fa-map-marked-alt me-2"></i>Tantangan Lokal</h4>
+                <ul class="lh-lg">
+                    <li>Pengelolaan daerah aliran sungai (<em>cross boundary river basin management</em>) dengan negara tetangga.</li>
+                    <li>Banjir yang melanda di daerah perkotaan akibat hujan di hulu, hujan lokal, dan pasang naik air laut di hampir ibu kota provinsi atau kota-kota besar lainnya.</li>
+                    <li>Degradasi daerah aliran sungai dan peningkatan lahan kritis yang menyebabkan erosi lahan dan sedimentasi berlebihan serta menurunnya resapan air tanah.</li>
+                    <li>Rendahnya layanan air baku terutama untuk kebutuhan air minum dan pertanian.</li>
+                    <li>Kekeringan yang melanda daerah pertanian dan lumbung-lumbung padi strategis dalam rangka ketahanan pangan dan swasembada pangan.</li>
+                    <li>Sungai dan daerah aliran sungai sebagai daya dukung hidrologi merupakan basis pembangunan komunitas dan perencanaan wilayah.</li>
+                    <li>Belum optimalnya pemanfaatan teknologi informasi dalam pengembangan basis data dalam kerangka peningkatan layanan sistem informasi manajemen untuk menunjang pengambilan keputusan.</li>
+                    <li>Perencanaan pola sumber daya air wilayah sungai dalam skala nasional untuk mendukung perencanaan master plan sumber daya air dan wilayah.</li>
+                    <li>Eksploitasi air tanah yang berlebihan dan tidak terkendali yang dapat menyebabkan terjadinya <em>land subsidence</em> (penurunan muka tanah).</li>
+                </ul>
+
+            </article>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+       <div class="container text-center">
+            <p class="text-white-50">&copy; 2026 Jurusan MPSDA ITB. All Rights Reserved.</p>
+       </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 800,
+          once: true
+      });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

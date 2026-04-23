@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Kurikulum - TPSDA ITB</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="../assets/images/logo-itb.png" alt="Logo ITB" style="height: 50px; width: auto;">
+                <div class="ms-3 brand-title-container">
+                    <span class="brand-text-top">Prodi Magister</span>
+                    <span class="brand-text-main">PSDA ITB</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../profil/sejarah.html"><i class="fas fa-landmark"></i>Sejarah</a></li>
+                            <li><a class="dropdown-item" href="../profil/visi-misi.html"><i class="fas fa-bullseye"></i>Visi dan Misi</a></li>
+                            <li><a class="dropdown-item" href="../profil/tujuan.html"><i class="fas fa-crosshairs"></i>Tujuan</a></li>
+                            <li><a class="dropdown-item" href="../profil/pimpinan.html"><i class="fas fa-user-tie"></i>Pimpinan</a></li>
+                            <li><a class="dropdown-item" href="../profil/staf-akademik.html"><i class="fas fa-users"></i>Staf Akademik</a></li>
+                            <li><a class="dropdown-item" href="../profil/fasilitas.html"><i class="fas fa-building"></i>Fasilitas</a></li>
+                            <li><a class="dropdown-item" href="../profil/data-fakta.html"><i class="fas fa-chart-bar"></i>Data dan Fakta</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Program</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="body-of-knowledge.html"><i class="fas fa-book-open"></i>Body of knowledge</a></li>
+                            <li><a class="dropdown-item" href="tantangan.html"><i class="fas fa-tasks"></i>Tantangan</a></li>
+                            <li><a class="dropdown-item" href="tujuan-pendidikan.html"><i class="fas fa-graduation-cap"></i>Tujuan Pendidikan</a></li>
+                            <li><a class="dropdown-item" href="capaian-lulusan.html"><i class="fas fa-trophy"></i>Capaian Lulusan</a></li>
+                            <li><a class="dropdown-item active" href="struktur-kurikulum.html"><i class="fas fa-sitemap"></i>Struktur Kurikulum</a></li>
+                            <li><a class="dropdown-item" href="silabus.html"><i class="fas fa-book"></i>Silabus</a></li>
+                            <li><a class="dropdown-item" href="standar-penilaian.html"><i class="fas fa-check-double"></i>Standar Penilaian</a></li>
+                            <li><a class="dropdown-item" href="kerja-praktek.html"><i class="fas fa-briefcase"></i>Kerja Praktek</a></li>
+                            <li><a class="dropdown-item" href="tugas-akhir.html"><i class="fas fa-file-alt"></i>Thesis</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laboratorium</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../laboratorium/lab-hidraulika.html"><i class="fas fa-water"></i>Lab. Hidraulika</a></li>
+                            <li><a class="dropdown-item" href="../laboratorium/lab-model-fisik-hidraulik.html"><i class="fas fa-wave-square"></i>Lab. Model Fisik Hidraulik</a></li>
+                            
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="https://www.youtube.com/results?search_query=Laboratorium+TPSDA+ITB" target="_blank">
+                                    <i class="fab fa-youtube text-danger"></i> Video Panduan Praktikum
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kegiatan</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../kegiatan/akreditasi.html"><i class="fas fa-certificate"></i>Akreditasi</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/prestasi.html"><i class="fas fa-award"></i>Prestasi</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/kerja-sama.html"><i class="fas fa-handshake"></i>Kerja Sama</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/galeri.html"><i class="fas fa-images"></i>Galeri</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="../perpustakaan/perpustakaan.html">Perpustakaan</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="https://itb.ac.id/berita/">Berita</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="article-hero-banner" data-aos="fade-in">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=2070&auto=format&fit=crop" alt="Ilustrasi Sumber Daya Air">
+        <div class="hero-text-overlay">
+            <h1>Struktur Kurikulum</h1>
+            <p>Kurikulum 2024 - Magister Pengelolaan Sumber Daya Air</p>
+        </div>
+    </div>
+
+    <main class="page-content-aesthetic">
+        <div class="article-container container py-5">
+
+            <article class="article-body" data-aos="fade-up" data-aos-delay="100">
+                
+                <ul class="nav nav-tabs curriculum-tabs mb-4" id="curriculumTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="wajib-tab" data-bs-toggle="tab" data-bs-target="#wajib" type="button" role="tab" aria-controls="wajib" aria-selected="true">Mata Kuliah Wajib</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="spesialisasi-tab" data-bs-toggle="tab" data-bs-target="#spesialisasi" type="button" role="tab" aria-controls="spesialisasi" aria-selected="false">Multi Disiplin</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="katalog-tab" data-bs-toggle="tab" data-bs-target="#katalog" type="button" role="tab" aria-controls="katalog" aria-selected="false">Katalog Mata Kuliah</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="curriculumTabContent">
+                    
+                    <div class="tab-pane fade show active" id="wajib" role="tabpanel" aria-labelledby="wajib-tab">
+                        <div class="accordion" id="accordionWajib">
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Semester 1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>WI7001</td><td>Literasi Digital, AI, & Etika Akademik</td><td>2</td></tr>
+                                                    <tr><td>SA5011</td><td>Metode Penelitian</td><td>3</td></tr>
+                                                    <tr><td>SA5021</td><td>Perencanaan dan Pengelolaan SDA</td><td>4</td></tr>
+                                                    <tr><td>SA5032</td><td>Hidraulika dan Pengendalian Sedimen</td><td>4</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Semester 2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA5033</td><td>Hidrologi Lanjut</td><td>4</td></tr>
+                                                    <tr><td>SA5041</td><td>Rekayasa Sungai dan Pengendalian Banjir</td><td>3</td></tr>
+                                                    <tr><td>SA5091</td><td>Kuliah Lapangan</td><td>3</td></tr>
+                                                    <tr><td>SA6021</td><td>Pengambilan Keputusan SDA</td><td>3</td></tr>
+                                                    <tr><td>SA5092</td><td>Proposal Tesis</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Semester 3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA5093</td><td>Seminar Kemajuan Thesis</td><td>2</td></tr>
+                                                    <tr><td>SA6091</td><td>Penelitian Mandiri SDA</td><td>4</td></tr>
+                                                    <tr><td>SA6092</td><td>Seminar SDA</td><td>2</td></tr>
+                                                    <tr><td>SA6099</td><td>Sidang Magister</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Semester 4
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td colspan="3" class="text-center text-muted py-3"><i>Belum ada data mata kuliah wajib untuk semester ini.</i></td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="spesialisasi" role="tabpanel" aria-labelledby="spesialisasi-tab">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body text-center py-5">
+                                <i class="fas fa-tools fa-3x text-muted mb-3"></i>
+                                <h4 class="fw-bold">Tahap Pembaruan</h4>
+                                <p class="text-muted">Data mata kuliah multi disiplin saat ini sedang dalam proses pembaruan. Silakan cek kembali nanti.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="katalog" role="tabpanel" aria-labelledby="katalog-tab">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-header bg-white border-bottom py-3">
+                                <h5 class="mb-0 fw-bold text-primary"><i class="fas fa-list me-2"></i>Daftar Seluruh Mata Kuliah Magister</h5>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="table-responsive" style="max-height: 600px; overflow-y: auto;">
+                                    <table class="table table-hover table-striped curriculum-table mb-0">
+                                        <thead class="table-light sticky-top">
+                                            <tr>
+                                                <th>Kode</th>
+                                                <th>Mata Kuliah</th>
+                                                <th>Kategori</th>
+                                                <th>SKS</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td><span class="text-primary">SA5011</span></td><td>Metode Penelitian</td><td>Kuliah</td><td>3</td></tr>
+                                            <tr><td><span class="text-primary">SA5021</span></td><td>Perencanaan dan Pengelolaan SDA</td><td>Kuliah</td><td>4</td></tr>
+                                            <tr><td><span class="text-primary">SA5032</span></td><td>Hidraulika dan Pengendalian Sedimen</td><td>Kuliah</td><td>4</td></tr>
+                                            <tr><td><span class="text-primary">SA5033</span></td><td>Hidrologi Lanjut</td><td>Kuliah</td><td>4</td></tr>
+                                            <tr><td><span class="text-primary">SA5034</span></td><td>Pemodelan Kualitas Air Lanjut</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5035</span></td><td>Rekayasa Bangunan Air</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5041</span></td><td>Rekayasa Sungai dan Pengendalian Banjir</td><td>Kuliah</td><td>3</td></tr>
+                                            <tr><td><span class="text-primary">SA5042</span></td><td>Rekayasa dan Pengelolaan Irigasi</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5043</span></td><td>Rekayasa Muara dan Pantai</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5044</span></td><td>Pengelolaan Air Tanah</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5045</span></td><td>Pengembangan dan Pengelolaan Rawa Berkelanjutan</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5051</span></td><td>Kajian Proyek Terpadu</td><td>Kerja Praktik</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5053</span></td><td>Pengelolaan Bendungan</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5091</span></td><td>Kuliah Lapangan</td><td>Kuliah</td><td>3</td></tr>
+                                            <tr><td><span class="text-primary">SA5092</span></td><td>Proposal Tesis</td><td>Penelitian</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA5093</span></td><td>Seminar Kemajuan Tesis</td><td>Penelitian</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6021</span></td><td>Pengambilan Keputusan SDA</td><td>Kuliah</td><td>3</td></tr>
+                                            <tr><td><span class="text-primary">SA6022</span></td><td>Pengelolaan Infrastruktur SDA Terpadu</td><td>Kuliah</td><td>3</td></tr>
+                                            <tr><td><span class="text-primary">SA6023</span></td><td>Analisis Risiko Daya Rusak Air</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6031</span></td><td>Geomorfologi Sungai</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6032</span></td><td>Perbaikan dan Pengaturan Sungai</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6051</span></td><td>Studi Mandiri Metode Penelitian dan Etika Profesi</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6052</span></td><td>Studi Mandiri Angkutan Sedimen</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6053</span></td><td>Studi Mandiri Pengendalian Erosi</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6054</span></td><td>Studi Mandiri Hidrologi Lanjut</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6055</span></td><td>Studi Mandiri Pemodelan Kualitas Air</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6056</span></td><td>Studi Mandiri Stabilitas Bangunan Air</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6057</span></td><td>Studi Mandiri Rekayasa Sungai dan Pengendalian Banjir</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6058</span></td><td>Studi Mandiri Rekayasa Muara dan Pantai</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6059</span></td><td>Studi Mandiri Kajian Proyek Terpadu</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6060</span></td><td>Studi Mandiri Pengelolaan Bendungan</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6061</span></td><td>Studi Mandiri Analisis Sistem</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6062</span></td><td>Studi Mandiri Pengelolaan Infrastruktur SDA</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6063</span></td><td>Studi Mandiri Pengelolaan SDA</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6064</span></td><td>Studi Mandiri Analisis Risiko Daya Rusak Air</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6065</span></td><td>Studi Mandiri Geomorfologi Sungai</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6066</span></td><td>Studi Mandiri Perbaikan dan Pengaturan Sungai</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6067</span></td><td>Studi Mandiri Sumber Daya Air</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6068</span></td><td>Studi Mandiri Rekayasa Sungai</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6069</span></td><td>Studi Mandiri Air Tanah</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6070</span></td><td>Studi Mandiri Irigasi</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6072</span></td><td>Studi Independen Sumber Daya Air</td><td>Kerja Praktik</td><td>3</td></tr>
+                                            <tr><td><span class="text-primary">SA6073</span></td><td>Studi Independen Rekayasa Sungai</td><td>Kerja Praktik</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6081</span></td><td>Pemodelan Terapan Hidrologi dan Hidrolika</td><td>Kuliah</td><td>3</td></tr>
+                                            <tr><td><span class="text-primary">SA6091</span></td><td>Penelitian Mandiri SDA</td><td>Penelitian</td><td>4</td></tr>
+                                            <tr><td><span class="text-primary">SA6092</span></td><td>Seminar SDA</td><td>Kuliah</td><td>2</td></tr>
+                                            <tr><td><span class="text-primary">SA6099</span></td><td>Sidang Magister</td><td>Tugas Akhir / Tesis / Disertasi</td><td>2</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+       <div class="container text-center">
+            <p class="text-white-50">&copy; 2025 Jurusan MPSDA ITB. All Rights Reserved.</p>
+       </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 800,
+          once: true
+      });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
